@@ -1,0 +1,219 @@
+body{
+  align-items: center;
+  height: 95vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 75%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  border: 1px thick;
+}
+
+.container{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; 
+   position: relative;
+    overflow: hidden;
+    margin: 10px;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.container *{
+  box-sizing: border-box;
+}
+
+.row{
+  columns: 25%;
+}
+
+.text{
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  color: black;
+  background-color: aqua;
+  align-items: center;
+  border: 1px thick;
+  font-weight: 70px;
+
+}
+
+.text{
+  position: relative;
+  top: -0px;
+  left: 950px;
+  text-align: justify;
+}
+
+p{
+  font-family: 'Times New Roman', Times, serif;
+}
+  
+  /** {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  body{
+    align-items: center;
+}
+
+h1{
+  text-align: center;
+  font-size: 75px;
+}
+
+/*#text{
+  float: right;
+  width: 25%;
+  padding: 0px;
+}*/
+
+/*.container{
+  display: flex;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid black;
+  font-size: 25px;
+}
+
+h1{
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+.text{
+  float: right;
+  width: 34.5%;
+  padding: 0px;
+}
+
+section{
+  float: right;
+  width: 25%;
+  padding: 0px;
+}
+
+
+.container-fluid{
+    padding: 0px;
+    width: 100%;
+    margin: 0px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+p{color: black;}
+ 
+@media (min-width: 992px) {
+
+  h1{
+    font-size: 75px;
+    color: blueviolet;
+  }
+ 
+  .text{
+    width: 34.5%;
+    font-size: 25px;
+    color: blueviolet;
+  }
+
+  section{
+    float: right;
+    width: 25%;
+    padding: 0px;
+    font-size: 25px;
+    color: blueviolet;
+  }
+
+  p{
+    width: 100%;
+    height: 0%;
+  }
+
+}
+
+/*p{color: red;}
+@media (max-width: 991px) {
+
+  .text{
+    width: 34.5%;
+  }
+
+  section{
+    float: right;
+    width: 25%;
+    padding: 0px;
+  }
+  p{
+    font-size: 75%;
+    width: 100%;
+  }
+
+  
+}*/
+
+/*p{color: black;}
+@media (max-width: 768px) and (max-width: 991px){
+
+  .text{
+    width: 62.5%;
+    color: red;
+  }
+
+  section{
+    float: right;
+    width: 30%;
+    padding: 0px;
+    color: red;
+  }
+
+  p{
+    font-size: 75%;
+    width: 100%;
+  }  
+}
+
+@media (max-width: 767px) {
+
+  .text{
+    width: 100%;
+    color: white;
+    font-size: 75%;
+    background-color: blue;
+  }
+
+  section{
+    float: right;
+    width: 100%;
+    color: white;
+    font-size: 75%;
+    background-color: blue;
+    margin: 0px;
+  }
+
+  p{
+    font-size: 75%;
+    width: 100%;
+  }  
+
+
+}
